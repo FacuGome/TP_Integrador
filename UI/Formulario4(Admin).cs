@@ -16,5 +16,54 @@ namespace UI
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Formulario2_Registro_ formulario = new Formulario2_Registro_();
+                formulario.Show();
+                this.Close();
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void btnModificarSeña_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                // metodo para modificar seña (idreserva,nuevaseña)
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error");
+
+            }
+        }
+
+        private void btnAgregarMesa_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                //metodo de agregar mesa(cantidaddeasientos)
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void btnEliminarMesa_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
