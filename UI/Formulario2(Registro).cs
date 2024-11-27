@@ -34,6 +34,9 @@ namespace UI
 
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
+
+            MessageBox.Show("Hola santi, dame $100000");
+
             try
             {
                 ClienteEntity cliente = new ClienteEntity()
