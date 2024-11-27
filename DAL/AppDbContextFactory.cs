@@ -12,7 +12,7 @@ namespace DAL
    
         public class AppDbContextFactory : IDesignTimeDbContextFactory<AppDbContext>
         {
-            private readonly static string connectionString = ConfigurationManager.ConnectionStrings["DbConnection"].ConnectionString;
+            private readonly static string connectionString = ConfigurationManager.ConnectionStrings["DbConnectionString"].ConnectionString;
 
             public AppDbContext CreateDbContext(string[] args)
             {

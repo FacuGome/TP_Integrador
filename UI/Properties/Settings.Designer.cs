@@ -33,5 +33,16 @@ namespace UI.Properties {
                 return ((string)(this["DbConnection"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-PN3GBNL\\SQLEXPRESS;Initial Catalog=\"Trabajo Práctico\";Integra" +
+            "ted Security=True;Encrypt=False;")]
+        public string DbConnectionString {
+            get {
+                return ((string)(this["DbConnectionString"]));
+            }
+        }
     }
 }
